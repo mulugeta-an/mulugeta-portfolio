@@ -1,25 +1,39 @@
 # Cisco Routing Protocol Configuration
 
-## Overview
-Configured dynamic routing protocols (OSPF, RIP) in a simulated Cisco network environment.
+## 📌 Overview
+Configured and tested dynamic routing protocols (OSPF and RIP) in a simulated Cisco network. Verified routing tables and connectivity between routers.
 
-## Tools Used
+## 🛠 Tools Used
 - Cisco Packet Tracer / GNS3
-- CLI configuration
+- CLI (Command Line Interface)
 
-## What I Did
-- Configured OSPF between multiple routers
-- Implemented RIP for route sharing
-- Verified routing tables using "show ip route"
-- Tested connectivity using ping
-
-## Screenshots
-
-### Topology
-![Topology](topology.png)
+## ⚙️ Network Configuration
 
 ### OSPF Configuration
-![OSPF](ospf.png)
+Configured OSPF to dynamically exchange routing information between routers.
 
-### Verification
-![Routing Table](route.png)
+![OSPF](ospf-configuration.png)
+
+### RIP Configuration
+Configured RIP for route sharing across the network.
+
+![RIP](rip-configuration.png)
+
+## ✅ Verification
+
+### Routing Table Check
+Used `show ip route` to confirm routes.
+
+![Routing Table](routing-table.png)
+
+### Connectivity Test
+Used `ping` to verify communication between devices.
+
+![Ping Test](ping-test.png)
+
+## 🎯 Key Skills Demonstrated
+- OSPF & RIP configuration
+- Network troubleshooting
+- CLI usage
+- Routing verification
+

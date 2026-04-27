@@ -1,0 +1,20 @@
+# AWS File Backup System
+
+## Overview
+Built a cloud-based file storage system using AWS S3 to upload and manage files.
+
+## Services Used
+- AWS S3 (storage)
+- IAM (security)
+
+## What I Did
+- Created S3 bucket
+- Uploaded files and organized into folders
+- Configured public access for testing
+- Applied bucket policy
+
+## Screenshots
+(Add screenshots from AWS console)
+
+## Result
+Successfully stored and accessed files via cloud storage.
